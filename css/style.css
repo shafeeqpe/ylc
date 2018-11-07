@@ -915,3 +915,9 @@ background: linear-gradient(to right, rgba(55,74,62,1) 0%, rgba(43,55,61,1) 36%,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374a3e', endColorstr='#16143b', GradientType=1 );
 
 }
+.likebtn-wrapper{
+  margin: 0 auto !important;;
+}
+.lb-dislike  {
+  display: none !important;
+}
