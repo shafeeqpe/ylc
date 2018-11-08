@@ -923,3 +923,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374a3e', end
 .lb-dislike  {
   display: none !important;
 }
+.lb-share-tt{
+  display: none  !important;
+}
