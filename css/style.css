@@ -917,7 +917,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#374a3e', end
 }
 .likebtn-wrapper{
   margin: 0 auto !important;
-  display: block;
+  display: block !important;
   text-align: center;
 }
 .lb-dislike  {
