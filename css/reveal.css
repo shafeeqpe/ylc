@@ -13,6 +13,7 @@ body {
 header {
   position: fixed;
   width: 100%;
+  text-align: center;
   top: 0;
   padding: 6px 2.5%;
   pointer-events: none;
@@ -27,7 +28,7 @@ header {
   position: absolute;
   z-index: 13;
   top: 20px;
-  left: 2.5%;
+  left: 5%;
   height: 21px;
   width: 19px;
   cursor: pointer;
@@ -78,7 +79,7 @@ header {
   right: 0;
   height: 100%;
   width: 100%;
-  z-index: 100;
+  z-index: 104;
 }
 
 .menu-inner {
