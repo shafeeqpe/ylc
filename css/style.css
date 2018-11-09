@@ -55,6 +55,11 @@ img {
 /**********************************/
 /******* 2.0 Content Styles *******/
 /**********************************/
+
+.pad-t-20 {
+  padding-top: 20px;
+}
+
 header {
   text-align: left;
   background: #fff;
@@ -752,7 +757,7 @@ img[src*="000webhost"] {
   width: 100%;
   margin-top: 5px;
   background: #fff;
-  /* padding: 25px 0 0; */
+  padding: 20px 0 0 0;
   /*   -webkit-box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;
   -moz-box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;
   box-shadow: rgba(51, 45, 49, 0.39) 0px 2px 5px;*/
@@ -838,7 +843,7 @@ h3:before {
 .home-team p {
   display: inline-block;
   text-align: right;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .home-team .fixture-logo {
