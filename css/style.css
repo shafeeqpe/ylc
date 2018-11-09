@@ -57,7 +57,7 @@ img {
 /**********************************/
 header {
   text-align: left;
-  background: #fff;
+  /* background: #fff; */
 }
 
 header .logo {
@@ -382,43 +382,43 @@ img[src*="000webhost"] {
 }
 
 .gradient-1 {
-  background: rgba(199, 30, 97, 1);
+  background: rgba(82, 54, 226, 1);
   background: -moz-linear-gradient(
     45deg,
-    rgba(199, 30, 97, 1) 0%,
-    rgba(80, 37, 108, 1) 76%,
-    rgba(80, 37, 108, 1) 100%
+    rgba(82, 54, 226, 1) 0%,
+    rgba(159, 114, 245, 1) 76%,
+    rgba(159, 114, 245, 1) 100%
   );
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, rgba(199, 30, 97, 1)),
-    color-stop(76%, rgba(80, 37, 108, 1)),
-    color-stop(100%, rgba(80, 37, 108, 1))
+    color-stop(0%, rgba(82, 54, 226, 1)),
+    color-stop(76%, rgba(159, 114, 245, 1)),
+    color-stop(100%, rgba(159, 114, 245, 1))
   );
   background: -webkit-linear-gradient(
     45deg,
-    rgba(199, 30, 97, 1) 0%,
-    rgba(80, 37, 108, 1) 76%,
-    rgba(80, 37, 108, 1) 100%
+    rgba(82, 54, 226, 1) 0%,
+    rgba(159, 114, 245, 1) 76%,
+    rgba(159, 114, 245, 1) 100%
   );
   background: -o-linear-gradient(
     45deg,
-    rgba(199, 30, 97, 1) 0%,
-    rgba(80, 37, 108, 1) 76%,
-    rgba(80, 37, 108, 1) 100%
+    rgba(82, 54, 226, 1) 0%,
+    rgba(159, 114, 245, 1) 76%,
+    rgba(159, 114, 245, 1) 100%
   );
   background: -ms-linear-gradient(
     45deg,
-    rgba(199, 30, 97, 1) 0%,
-    rgba(80, 37, 108, 1) 76%,
-    rgba(80, 37, 108, 1) 100%
+    rgba(82, 54, 226, 1) 0%,
+    rgba(159, 114, 245, 1) 76%,
+    rgba(159, 114, 245, 1) 100%
   );
   background: linear-gradient(
     45deg,
-    rgba(199, 30, 97, 1) 0%,
-    rgba(80, 37, 108, 1) 76%,
-    rgba(80, 37, 108, 1) 100%
+    rgba(82, 54, 226, 1) 0%,
+    rgba(159, 114, 245, 1) 76%,
+    rgba(159, 114, 245, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c71e61', endColorstr='#50256c', GradientType=1 );
 }
@@ -551,6 +551,8 @@ img[src*="000webhost"] {
   max-height: 200px;
   overflow: hidden;
   text-align: center;
+  height: 200px;
+  display: block;
 }
 .banner img {
   opacity: 1;
@@ -640,10 +642,10 @@ img[src*="000webhost"] {
 }
 
 .table-caption {
-  background: #63285a;
+  background: #5d3dce;
   padding: 10px 5%;
   width: 100%;
-  border-top: 3px solid #e5064e;
+  /* border-top: 3px solid #231a40; */
   display: block;
   line-height: 16px;
 }
@@ -797,15 +799,15 @@ h3:before {
   width: 95%;
   margin: 0 auto 0;
   padding: 0px 0;
-  background: rgb(253, 253, 253);
-  background: linear-gradient(90deg, #fc466b 0%, #040b2f 100%);
+  background: #673ab7;
+  background: linear-gradient(90deg, #2d40a5 0%, #179898 100%);
   border-radius: 5px;
   position: relative;
-  -webkit-box-shadow: rgba(51, 45, 49, 0.25) 0px 2px 5px;
-  -moz-box-shadow: rgba(51, 45, 49, 0.25) 0px 2px 5px;
-  box-shadow: rgba(146, 113, 131, 0.8) 0px 4px 13px;
+  -webkit-box-shadow: rgba(23, 85, 134, 0.65) 0px 3px 10px;
+  -moz-box-shadow: rgba(23, 85, 134, 0.65) 0px 3px 10px;
+  box-shadow: rgba(23, 85, 134, 0.65) 0px 3px 10px;
   color: #fff;
-  margin-top: 6px;
+  margin-top: 13px;
 }
 .match-fixture-single:after {
   width: 14px;
@@ -879,7 +881,7 @@ h3:before {
   text-decoration: none;
   display: block;
   text-align: center;
-  color: rgba(80, 37, 108, 1);
+  color: rgba(159, 114, 245, 1);
   padding: 12px 0;
   margin-top: 25px;
   box-shadow: rgba(236, 147, 147, 0.5) 2px 4px 10px;
