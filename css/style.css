@@ -977,7 +977,7 @@ h3:before {
 .ios-shadow img {
   position: relative;
   z-index: 9;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .ios-shadow-container {
@@ -991,7 +991,7 @@ h3:before {
 }
 .ios-shadow-container::after {
   position: absolute;
-  left: 13.5%;
+  left: 2.1%;
   right: 2.5%;
   bottom: -4px;
   height: 13px;
@@ -1001,5 +1001,5 @@ h3:before {
   -webkit-filter: blur(15px);
   filter: blur(7px);
   display: block;
-  width: 79%;
+  width: 92%;
 }
