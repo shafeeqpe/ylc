@@ -1114,3 +1114,7 @@ h3:before {
   z-index: 100;
   padding: 0 0 0;
 }
+.match-day-result {
+    font-size: 23px;
+    line-height: 0;
+}
